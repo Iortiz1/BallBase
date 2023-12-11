@@ -1,0 +1,24 @@
+.home{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to bottom, #000, rgb(1, 1, 1));
+    color: white;
+    padding: 20px 20px 200px;
+}
+
+.home h1{
+    justify-content: center;
+    margin-left: -50px;
+    color: #f1f1f1;
+    font-family: Permanent Marker ; 
+   
+}
+.home img{
+    background-position: center;
+    width: 100%;
+}
+
+
+

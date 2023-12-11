@@ -1,0 +1,17 @@
+.Equipos{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to bottom,rgba(1, 1, 1, 0.964), #000 );
+    color: white;
+    padding: 20px 20px 200px;
+}
+.Equipos h2{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.Equipos thead {
+    background-color: rgb(199, 15, 15);
+}

@@ -1,0 +1,54 @@
+.temporadas{
+    height: 100%;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    background: linear-gradient(to bottom, #000, rgb(199, 199, 199));
+    color: white;
+    padding: 20px 20px 200px;
+}   
+
+.temporadas h2{
+    text-align: left;
+    margin-left: 10px;
+}
+
+table {
+        width: 100%; /* Para que la tabla ocupe todo el ancho posible */
+        border-collapse: collapse; /* Fusionar los bordes de la tabla */
+        margin-top: 20px; /* Espacio superior */
+      }
+
+th, td {
+        border: 1px solid white; /* Añadir bordes a las celdas */
+        padding: 8px; /* Añadir espacio interno */
+      }
+
+.temporadas select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+      }
+      
+      /* Estilo al pasar el mouse sobre las opciones */
+.temporadas select:hover {
+        background-color: #f0f0f0;
+      }
+      
+.temporadas select option {
+        padding: 8px;
+      }  
+
+ .temporadas label {
+        font-size: 18px;
+        color: #333;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-left: 10px;
+      }
